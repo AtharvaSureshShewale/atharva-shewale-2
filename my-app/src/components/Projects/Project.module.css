@@ -1,0 +1,103 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 4rem 0;
+  position: relative;
+}
+
+.container h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 3.5rem;
+}
+
+.container img {
+  max-width: 280px;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.container img:hover{
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.45);
+}
+
+.container a {
+  width: fit-content;
+  text-decoration: none;
+  color: #fff;
+  transform: scale(0.9);
+  transition: transform 200ms ease-in-out;
+}
+
+.container a:hover {
+  transform: scale(1);
+}
+
+.container::after,
+.container::before {
+  content: "";
+  width: 20rem;
+  height: 20rem;
+  border-radius: 28.125rem;
+  background: #7c66e3;
+  position: absolute;
+  z-index: -1;
+  filter: blur(300px);
+}
+
+.container::after {
+  top: -3rem;
+  left: -5rem;
+}
+
+.container::before {
+  background: #7c66e3;
+  bottom: 0rem;
+  right: 0rem;
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  gap: 30px;
+  padding: 0 30px;
+  scroll-snap-type: x mandatory;
+  text-align: center;
+}
+
+.projectsContainer::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on WebKit browsers */
+}
+
+.projectsContainer > * {
+  scroll-snap-align: start;
+  flex: 0 0 auto;
+}
+
+@media (max-width: 1025px) {
+  .projectsContainer {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .projectsContainer {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .projectsContainer {
+    gap: 10px;
+    padding:0 0.6rem;
+    overflow-x: scroll;
+  }
+
+  .projectsContainer > * {
+    min-width: 100%; /* Show one project at a time */
+    flex: 0 0 100%; /* Ensure only one project is visible */
+    scroll-snap-align: center; /* Snap to the center for better UX */
+  }
+}

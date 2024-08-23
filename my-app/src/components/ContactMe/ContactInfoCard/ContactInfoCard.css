@@ -1,0 +1,71 @@
+.main {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    display: inline-block; /* Ensures the anchor behaves like a block with its content */
+    width: auto;
+    height: auto;
+}
+
+.contact-details-card{
+    display: flex;
+    width: 17rem;
+    height: 9.3rem;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-radius: 0.65rem;
+    background: #130f2a;
+    border: 1.5px solid #6751b9;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.contact-details-card .icon{
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    background: #3d3072;
+    margin-bottom: 0.8rem;
+}
+
+.icon img{
+    width: 1.8rem;
+    height: auto;
+    object-fit: contain;
+}
+
+.contact-details-card p{
+    font-size: 0.70rem;
+    font-weight: 400;
+}
+
+@media (max-width:1024px){
+    .contact-details-card{
+        width: 14rem;
+        height: 9.3rem;
+        margin:0 1rem;
+        margin-bottom: 2rem;
+    }
+
+
+    .icon img{
+        width: 1.8rem;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .contact-details-card p{
+        font-size: 0.60rem;
+        font-weight: 400;
+    }
+}
+
+@media (max-width:600px){
+    .contact-details-card p{
+        font-size: 0.598rem;
+    }
+}

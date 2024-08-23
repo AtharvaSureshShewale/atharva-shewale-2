@@ -1,0 +1,105 @@
+.contact-container {
+    margin: 4rem 0;
+    position: relative;
+}
+
+.contact-container h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    gap: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 1rem; /* Add gap to prevent overflow */
+    max-width: 100%; /* Ensure it doesn’t overflow its container */
+}
+
+.contact-info .contact1,
+.contact-info .contact2 {
+    flex: 1;
+    text-align: center;
+}
+
+@media (max-width: 1025px) {
+    .contact-content {
+        gap: 1.5rem;
+    }
+
+    .contact-info .contact1,
+    .contact-info .contact2 {
+        flex: 1;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column-reverse;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .contact-info {
+        display: flex;
+        width: 100%;
+    }
+
+    .contact-info .contact1,
+    .contact-info .contact2 {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .contact-container h5 {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .contact-content {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .contact-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .contact-info .contact1,
+    .contact-info .contact2 {
+        width: 100%; /* Ensure they take up the full width */
+        max-width: 100%; /* Prevent any overflow */
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* Center content within each section */
+        align-items: center; /* Center content within each section */
+    }
+
+    .contact-container h5 {
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+        text-align: center; /* Center the heading */
+    }
+}
+
+
