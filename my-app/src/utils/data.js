@@ -3,8 +3,8 @@ export const SKILLS=[
         title:"Frontend",
         icon:"./assets/images/frontend-icon.png",
         skills:[
-            {skill: "HTML", percentage:"80%"},
-            {skill: "CSS", percentage:"75%"},
+            {skill: "HTML", percentage:"90%"},
+            {skill: "CSS", percentage:"80%"},
             {skill: "React.js", percentage:"70%"},
             {skill: "Bootstrap", percentage:"85%"},
             {skill: "Flutter", percentage:"75%"},
@@ -42,25 +42,25 @@ export const SKILLS=[
 export const PROJECTS = [
     {
       src: "./assets/images/agrobot.png",
-      link: "https://github.com/Ade-mir/company-landing-page-2",
+      link: "https://github.com/AtharvaSureshShewale/Agrobot",
       h3: "Agrobot",
       p: "Farming Assistant"
     },
     {
       src: "./assets/images/mamas_kitchen.png",
-      link: "https://github.com/Ade-mir/company-landing-page-2",
+      link: "https://github.com/AtharvaSureshShewale/ecommerce_food_app",
       h3: "Mama's Kitchen",
       p: "Food Delivery"
     },
     {
       src: "./assets/images/nature_thrills.png",
-      link: "https://github.com/Ade-mir/company-landing-page-2",
+      link: "https://github.com/AtharvaSureshShewale/adventure_app",
       h3: "Nature Thrills",
       p: "Adventure Travel"
     },
     {
       src: "./assets/images/air_trekker.png",
-      link: "https://github.com/Ade-mir/company-landing-page-2",
+      link: "https://github.com/AtharvaSureshShewale/flight_booking_app",
       h3: "Air Trekker",
       p: "Flight Booking"
     },
