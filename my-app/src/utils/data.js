@@ -3,10 +3,11 @@ export const SKILLS=[
         title:"Frontend",
         icon:"./assets/images/frontend-icon.png",
         skills:[
-            {skill: "HTML", percentage:"90%"},
-            {skill: "CSS", percentage:"80%"},
+            {skill: "HTML", percentage:"80%"},
+            {skill: "CSS", percentage:"70%"},
             {skill: "React.js", percentage:"70%"},
             {skill: "Bootstrap", percentage:"85%"},
+            {skill: "Tailwind CSS", percentage:"70%"},
             {skill: "Flutter", percentage:"75%"},
         ],
     },
@@ -26,13 +27,15 @@ export const SKILLS=[
             {skill: "Git & Github", percentage:"65%"},
             {skill: "Visual Studio Code", percentage:"75%"},
             {skill: "Android Studio Code", percentage:"75%"},
+            {skill: "Canva", percentage:"85%"},
+            {skill: "AutoCAD", percentage:"70%"},
+            {skill: "TinkerCAD", percentage:"70%"},
         ],
     },
     {
         title:"Soft Skills",
         icon:"./assets/images/soft-skill.png",
         skills:[
-            {skill: "Problem-Solving", percentage:"75%"},
             {skill: "Leadership", percentage:"75%"},
             {skill: "Attention to Detail", percentage:"70%"},
         ],
@@ -66,4 +69,49 @@ export const PROJECTS = [
     },
     
 ];
+  
+export const WORK_EXPERIENCES = [
+    {
+      "type": "non-technical",
+      "title": "Design Co-comm",
+      "duration": "October 2024",
+      "place": "Init.AI, SVKM’s DJ Sanghvi College of Engineering",
+      "details": "Currently working with the design team for the tech fest, focusing on creating visually appealing graphics and assets"
+    },
+    {
+      "type": "technical",
+      "title": "Conducted Workshop",
+      "duration": "September 2024",
+      "place": "Shri Bhagubhai Mafatlal Polytechnic",
+      "details": "Conducted a hands-on Flutter workshop aimed at introducing students to cross-platform mobile app development. Covered fundamental concepts such as widgets, layouts, state management, and styling"
+    },
+    {
+      "type": "technical",
+      "title": "Technical Co-comm",
+      "duration": "September 2024",
+      "place": "CodeStars, SVKM’s DJ Sanghvi College of Engineering",
+      "details": "Led the creation of visual assets for the tech fest, managing a design team to ensure cohesive branding across promotional materials and event displays"
+    },
+    {
+      "type": "non-technical",
+      "title": "Design Head",
+      "duration": "February 2024",
+      "place": "Ignite IT-24, Shri Bhagubhai Mafatlal Polytechnic",
+      "details": "Led the creation of visual assets for the tech fest, managing a design team to ensure cohesive branding across promotional materials and event displays"
+    },
+    {
+      "type": "non-technical",
+      "title": "Design Co-comm",
+      "duration": "February 2023",
+      "place": "Ignite IT-23, Shri Bhagubhai Mafatlal Polytechnic",
+      "details": "Assisted in the creation of visual assets for the tech fest, collaborating with the design team to maintain cohesive branding across promotional materials and event displays"
+    },
+    {
+      "type": "technical",
+      "title": "Web Developer Intern",
+      "duration": "June 23 - July 23",
+      "place": "Blackstone Game Development, Mumbai",
+      "details": "Leveraged my frontend skills and foundational backend knowledge to build engaging user experiences and enhance application functionality"
+    }
+  ];
   

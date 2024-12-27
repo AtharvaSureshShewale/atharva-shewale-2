@@ -15,6 +15,7 @@ function MobileNav({ isOpen, toggleMenu }) {
                     <ul>
                         <li><a href="#home" className="menu-item">Home</a></li>
                         <li><a href="#skills" className="menu-item">Skills</a></li>
+                        <li><a href="#exp" className="menu-item">Experience</a></li>
                         <li><a href="#projects" className="menu-item">Projects</a></li>
                         <li><a href="#about" className="menu-item">About</a></li>
                         <li><a href="#contactme" className="menu-item">Contact Me</a></li>

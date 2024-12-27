@@ -6,6 +6,7 @@ import Navbar from './components/Navbar/Navbar';
 import ContactMe from './components/ContactMe/ContactMe';
 import Footer from './components/Footer/Footer';
 import AboutMe from './components/About/AboutMe';
+import Experiences from './components/Experiences/Experiences';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <div className="container">
       <Hero/>
       <Skills/>
+      <Experiences/>
       <Projects/>
       <AboutMe/>
       <ContactMe/>

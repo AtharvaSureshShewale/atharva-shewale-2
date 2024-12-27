@@ -2,6 +2,7 @@ import React from 'react'
 import './Hero.css';
 
 function Hero() {
+
   return (
     <section className="hero-container" id="home">
         <div className="hero-content">
@@ -10,6 +11,11 @@ function Hero() {
                 Passionate App Developer | Transforming Ideas into Seamless and
                 Visually Stunning App Solutions
             </p>
+        <div className="download-btn-container">
+            <a href="/Resume.pdf" download="Resume.pdf">
+                <button className="download-btn">Download Resume</button>
+            </a>
+        </div>
         </div>
 
         <div className="hero-img">
@@ -32,6 +38,7 @@ function Hero() {
                 </div>
             </div>
         </div>
+
     </section>
   )
 }

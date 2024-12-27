@@ -90,6 +90,35 @@
     transform: translateY(-0.5rem);
 }
 
+.download-btn-container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.download-btn {
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    background: linear-gradient(180deg, #ac96ff 0%, #7c5fe6 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1.5px solid #6751b9;
+    border-radius: 0.65rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.download-btn:focus {
+    outline: none;
+}
+
+
 
 @media (max-width:1025px){
     .hero-content h2{
@@ -132,6 +161,11 @@
         right: 0rem;
         /* filter: blur(0px); */
     }
+
+    .download-btn {
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem;
+    }
 }
 
 @media (max-width:768px){
@@ -169,6 +203,13 @@
         bottom: 2rem;
         right: 0rem;
     }
+
+    .download-btn-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width:600px) {
@@ -202,4 +243,5 @@
     .tech-icon img{
         width: 2rem;
     }
+
 }
