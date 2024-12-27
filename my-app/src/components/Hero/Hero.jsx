@@ -6,7 +6,7 @@ function Hero() {
   return (
     <section className="hero-container" id="home">
         <div className="hero-content">
-            <h2>Building Digital Experiences That Inspire</h2>
+            <h2>Turning Ideas into Engaging Digital Realities</h2>
             <p>
             Enthusiastic about AI/ML | Passionate App Developer | Transforming Ideas into Seamless and
                 Visually Stunning App Solutions

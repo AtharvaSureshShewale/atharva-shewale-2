@@ -13,7 +13,7 @@
   background: #7c66e3;
   position: absolute;
   z-index: -1;
-  filter: blur(200px);
+  filter: blur(350px);
 }
 
 .exp-container::after {
@@ -22,7 +22,7 @@
 }
 
 .exp-container::before {
-  background: #9e51b9;
+  background: #7c66e3;
   bottom: 0rem;
   right: 0rem;
 }
