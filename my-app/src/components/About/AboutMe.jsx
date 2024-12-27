@@ -6,7 +6,7 @@ function AboutMe() {
     <section className="about-container" id="about">
       <h5>About Me</h5>
       <div className='content'>
-        <img src="./assets/images/hero.jpeg" alt="Hero" />
+        <img src="./assets/images/hero.jpg" alt="Hero" />
         <div className="info">
             <p>I am a creative and driven person, committed to reaching my goals and always striving to better myself. 
                 I believe in making a positive impact wherever I can. My skills include expertise in HTML, CSS, React.js, Bootstrap, Flutter, and proficiency with tools like Git, GitHub, Visual Studio Code, and Android Studio. 

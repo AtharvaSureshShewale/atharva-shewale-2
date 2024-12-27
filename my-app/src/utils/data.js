@@ -67,17 +67,23 @@ export const PROJECTS = [
       h3: "Air Trekker",
       p: "Flight Booking"
     },
-    
+    {
+        src:"./assets/images/book.png",
+        link:"https://github.com/AtharvaSureshShewale/book_website",
+        h3:"MagicBook",
+        p:"Online Bookstore"
+    },
+    {
+        src:"./assets/images/tshirt.png",
+        link:"https://github.com/AtharvaSureshShewale/T-shirt-Website",
+        h3:"Fashionetic",
+        p:"Fashion E-commerce"
+    }  
 ];
+
   
 export const WORK_EXPERIENCES = [
-    {
-      "type": "non-technical",
-      "title": "Design Co-comm",
-      "duration": "October 2024",
-      "place": "Init.AI, SVKM’s DJ Sanghvi College of Engineering",
-      "details": "Currently working with the design team for the tech fest, focusing on creating visually appealing graphics and assets"
-    },
+
     {
       "type": "technical",
       "title": "Conducted Workshop",
@@ -93,6 +99,20 @@ export const WORK_EXPERIENCES = [
       "details": "Led the creation of visual assets for the tech fest, managing a design team to ensure cohesive branding across promotional materials and event displays"
     },
     {
+      "type": "technical",
+      "title": "Web Developer Intern",
+      "duration": "June 23 - July 23",
+      "place": "Blackstone Game Development, Mumbai",
+      "details": "Leveraged my frontend skills and foundational backend knowledge to build engaging user experiences and enhance application functionality"
+    },
+    {
+      "type": "non-technical",
+      "title": "Design Co-comm",
+      "duration": "October 2024",
+      "place": "Init.AI, SVKM’s DJ Sanghvi College of Engineering",
+      "details": "Currently working with the design team for the tech fest, focusing on creating visually appealing graphics and assets"
+    },
+    {
       "type": "non-technical",
       "title": "Design Head",
       "duration": "February 2024",
@@ -106,12 +126,6 @@ export const WORK_EXPERIENCES = [
       "place": "Ignite IT-23, Shri Bhagubhai Mafatlal Polytechnic",
       "details": "Assisted in the creation of visual assets for the tech fest, collaborating with the design team to maintain cohesive branding across promotional materials and event displays"
     },
-    {
-      "type": "technical",
-      "title": "Web Developer Intern",
-      "duration": "June 23 - July 23",
-      "place": "Blackstone Game Development, Mumbai",
-      "details": "Leveraged my frontend skills and foundational backend knowledge to build engaging user experiences and enhance application functionality"
-    }
+
   ];
   

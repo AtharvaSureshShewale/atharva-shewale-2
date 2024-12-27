@@ -8,7 +8,7 @@ function Hero() {
         <div className="hero-content">
             <h2>Building Digital Experiences That Inspire</h2>
             <p>
-                Passionate App Developer | Transforming Ideas into Seamless and
+            Enthusiastic about AI/ML | Passionate App Developer | Transforming Ideas into Seamless and
                 Visually Stunning App Solutions
             </p>
         <div className="download-btn-container">
@@ -23,7 +23,7 @@ function Hero() {
                 <div className="tech-icon">
                     <img src="./assets/images/img01.png" alt="Icon 1" />
                 </div>
-                <img src="./assets/images/hero.jpeg" alt="Hero" className="hero-i"/>
+                <img src="./assets/images/hero.jpg" alt="Hero" className="hero-i"/>
             </div>
 
             <div>
